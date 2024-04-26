@@ -1,0 +1,48 @@
+
+/* BODY */
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* HEADER */
+header {
+    position: relative;
+}
+
+header .forms input.form-control {
+    color: blue;
+    background-color: rgba(255, 255, 255, .2);
+    border-color: rgba(255, 255, 255,.7);
+}
+
+header .forms input.form-control::placeholder{
+    color: rgba(255, 255, 255, .7);
+}
+
+
+/* HERO */
+section.hero {
+    background-color: rgba(0, 149, 255,0.6);
+    position: relative;
+    overflow: hidden;
+}
+
+section.hero .headline h1 {
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+section.hero .headline p {
+    font-size: 26px;
+}
+
+section.hero img.watch {
+    width: 480px;
+    position: absolute;  
+    top: -5%;
+    left: 60%;  
+}
